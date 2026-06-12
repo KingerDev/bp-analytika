@@ -1,0 +1,33 @@
+{
+  "mcpServers": {
+    "tsv-mysql": {
+      "type": "stdio",
+      "command": "/Users/martinbalaz/www/mcp-servers/mysql-mcp/venv/bin/python3",
+      "args": [
+        "/Users/martinbalaz/www/mcp-servers/mysql-mcp/tsv_mysql_mcp.py"
+      ],
+      "env": {
+        "TSV_SSH_KEY": "/Users/martinbalaz/.ssh/tsv_db_tunnel",
+        "TSV_SSH_KEY_PASSPHRASE": "Helikoptera@99"
+      }
+    },
+    "clarity-b2c": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@microsoft/clarity-mcp-server",
+        "--clarity_api_token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjQ4M0FCMDhFNUYwRDMxNjdEOTRFMTQ3M0FEQTk2RTcyRDkwRUYwRkYiLCJ0eXAiOiJKV1QifQ.eyJqdGkiOiI5M2MxNDE2ZS04YzI5LTQ2OWItOGIxOC02YzlhZDUxOThlYjciLCJzdWIiOiIzMjA2MzkzMzYyMzMzNDYzIiwic2NvcGUiOiJEYXRhLkV4cG9ydCIsIm5iZiI6MTc4MTIwOTMxMCwiZXhwIjo0OTM0ODA5MzEwLCJpYXQiOjE3ODEyMDkzMTAsImlzcyI6ImNsYXJpdHkiLCJhdWQiOiJjbGFyaXR5LmRhdGEtZXhwb3J0ZXIifQ.Pkm0oY2ZyxQ2dDR-NgjuCHBWBtRohYNwU5akWEZZoaRyWS1hmtxMFW4f4ytWk1ajbxzecHxxHZuJcuFENN1syb2EojDReLLSqgRtr_seX9-3bAeXC6FDkiBd1-4hKRg5B41SbaN9B8Xo__0NU5wroVsRs4_rjoXdA8jKjNGzd_ZHGXRqKkSXOHdJhSFUNee80VwPJUi5JuumAlmpypGHRMaToJ94NzWpzXVVOo9Wlnc-3404T3hglWQRvoj8xycdr2rhDg8wYto8x2byOwWvHQqgYJzCtk6pOJxbFgZzOCWX4fwcJYhpRu2Bkkjo0vD0uzlNDv-DCouXOc0E5nM9YQ"
+      ]
+    },
+    "clarity-b2b": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@microsoft/clarity-mcp-server",
+        "--clarity_api_token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjQ4M0FCMDhFNUYwRDMxNjdEOTRFMTQ3M0FEQTk2RTcyRDkwRUYwRkYiLCJ0eXAiOiJKV1QifQ.eyJqdGkiOiJhZjViNjA5Yy1lODE2LTQ1NmEtYjk2Yi0yYjBmNWZhYzZmNDQiLCJzdWIiOiIzMjA4NTI2MzQ3NzY3Mzc1Iiwic2NvcGUiOiJEYXRhLkV4cG9ydCIsIm5iZiI6MTc4MTIwOTM5NywiZXhwIjo0OTM0ODA5Mzk3LCJpYXQiOjE3ODEyMDkzOTcsImlzcyI6ImNsYXJpdHkiLCJhdWQiOiJjbGFyaXR5LmRhdGEtZXhwb3J0ZXIifQ.XpmBTaEOTcmO8E-7Bm4Ohkf4UQVX-Y9bBszce72Rv_7hPDGRuR5RC2GxfLH2pjVbda6u0dH1_ku_U_2xEwUVBrOVkoHjo4DC9sYgCLqke7Cr70Z38_Qu7OdkrX9joMxuvhdviQTwCMgwm9zr_CkIENSshnoQznrX31q0eEcAHMzV7Y0fBsSAbFP0vuNa7VdRFHMCFUg4JKkdVm2l7_R6cJG4KeJ6a5tu4xclMVN9T9OgSdV1xHz_CzRtl3HfCeeR5uD5NWB0MeVcwP5jj2mBO_Eklc-LsjEzYjOXM_jwqmKxxcOSmZD_713wA_7aeXPmwElz2JPiJqweMpBRWBP7Jg"
+      ]
+    }
+  }
+}
